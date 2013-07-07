@@ -1,4 +1,4 @@
 ---
-- hosts: localhost
+- hosts: local
   - name: testing
     apt: name=vim state=installed
