@@ -1,4 +1,5 @@
 ---
 - hosts: localhost
-  name: testing
-  apt: name=vim state=installed
+  tasks:
+  - name: testing
+    apt: name=vim state=installed
